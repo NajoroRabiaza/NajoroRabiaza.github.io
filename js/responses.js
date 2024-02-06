@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
         } else if (clickCount === 5) {
             noButton.textContent = 'Dernière chance!';
         } else if (clickCount >= 6) {
-            noButton.textContent = "Yes";
+            noButton.textContent = "Oui";
         }
     });
 
