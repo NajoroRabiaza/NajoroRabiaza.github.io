@@ -19,14 +19,16 @@ document.addEventListener('DOMContentLoaded', function () {
         yesButton.style.height = newHeight + 'px';
         yesButton.style.width = newWidth + 'px';
         if (clickCount === 1) {
-            noButton.textContent = 'Say Yes';
+            noButton.textContent = 'Dit oui!';
         } else if (clickCount === 2) {
-            noButton.textContent = 'Are you sure?';
+            noButton.textContent = 'Tu es sure?';
         } else if (clickCount === 3) {
-            noButton.textContent = 'Really?';
+            noButton.textContent = 'Vraiment?';
         } else if (clickCount === 4) {
-            noButton.textContent = 'Last chance!';
-        } else if (clickCount >= 5) {
+            noButton.textContent = 'S`il te plaiiit!';
+        } else if (clickCount === 5) {
+            noButton.textContent = 'Dernière chance!';
+        } else if (clickCount >= 6) {
             noButton.textContent = "Yes";
         }
     });
