@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
         } else if (clickCount === 3) {
             noButton.textContent = 'Vraiment?';
         } else if (clickCount === 4) {
-            noButton.textContent = 'S`il te plaiiit!';
+            noButton.textContent = 'Sil te plaiiit!';
         } else if (clickCount === 5) {
             noButton.textContent = 'Tu en es vraiment certaine ?';
         } else if (clickCount === 6) {
