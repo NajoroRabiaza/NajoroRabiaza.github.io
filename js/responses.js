@@ -27,8 +27,26 @@ document.addEventListener('DOMContentLoaded', function () {
         } else if (clickCount === 4) {
             noButton.textContent = 'S`il te plaiiit!';
         } else if (clickCount === 5) {
+            noButton.textContent = 'Tu en es vraiment certaine ?';
+        } else if (clickCount === 6) {
+            noButton.textContent = 'Tu es absolument sûre ?';
+        } else if (clickCount === 7) {
+            noButton.textContent = 'Vraiment, vraiment ?';
+        } else if (clickCount === 8) {
+            noButton.textContent = 'Allez, fais un effort, sil-te-plaît !';
+        } else if (clickCount === 9) {
+            noButton.textContent = 'Tu ne veux pas reconsidérer ta décision ?';
+        } else if (clickCount === 10) {
+            noButton.textContent = 'Franchement, tu es certaine ?';
+        } else if (clickCount === 11) {
+            noButton.textContent = 'Je te implore, fais-moi ce plaisir !';
+        } else if (clickCount === 12) {
+            noButton.textContent = 'Allez, juste cette fois !';
+        } else if (clickCount === 13) {
+            noButton.textContent = 'Je te le demande du fond du cœur 🥺🥺';
+        } else if (clickCount === 14) {
             noButton.textContent = 'Dernière chance!';
-        } else if (clickCount >= 6) {
+        } else if (clickCount >= 15) {
             noButton.textContent = "Oui";
         }
     });
